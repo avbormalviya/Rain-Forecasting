@@ -7,5 +7,6 @@ mlruns/
 mlflow.db
 optuna.db
 data/archive.zip
+.idea/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
