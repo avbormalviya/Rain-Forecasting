@@ -158,10 +158,18 @@ curl -X POST "http://localhost:8000/forecast" \
 
 ## 📁 Dataset
 
+<<<<<<< HEAD
 - Source: [Kaggle — Indian Daily Rainfall Dataset(https://www.kaggle.com/datasets/vimalborana/india-state-level-daily-rainfall-2009-2024) 
+=======
+- Source: [Kaggle — Indian Daily Rainfall Dataset](https://www.kaggle.com/datasets/vimalborana/india-state-level-daily-rainfall-2009-2024/)
+>>>>>>> 0b7c792 (your message)
 - 36 Indian states
 - Daily granularity: 2009-2024
 - ~200,000 rows
 
 ## 👤 Author
+<<<<<<< HEAD
 [Your Name] — [GitHub](https://github.com/avbormalviya) — [LinkedIn](https://www.linkedin.com/in/vimal-borana/)
+=======
+Vimal borana — [GitHub](https://github.com/avbormalviya) — [LinkedIn](https://www.linkedin.com/in/vimal-borana/)
+>>>>>>> 0b7c792 (your message)
