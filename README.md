@@ -275,4 +275,4 @@ curl -X POST "http://localhost:8000/forecast" \
 - ~200,000 rows
 
 ## 👤 Author
-[Your Name] — [GitHub](#) — [LinkedIn](#)
+[Your Name] — [GitHub](https://github.com/avbormalviya) — [LinkedIn](https://www.linkedin.com/in/vimal-borana/)
