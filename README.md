@@ -25,12 +25,8 @@ outperforming the government forecasting model by **34x** during peak monsoon mo
 ```
 ├── README.md
 ├── analysis
-│   ├── .ipynb_checkpoints
-│   │   └── EDA-checkpoint.ipynb
 │   ├── EDA.ipynb
 │   └── analyze_src
-│       ├── .ipynb_checkpoints
-│       │   └── missing_values_analysis-checkpoint.py
 │       ├── basic_data_inspection.py
 │       ├── bivariate_analysis.py
 │       ├── missing_values_analysis.py
@@ -50,115 +46,9 @@ outperforming the government forecasting model by **34x** during peak monsoon mo
 │   └── y_test.csv
 ├── extracted_data
 │   └── daily-rainfall-at-state-level.csv
-├── mlflow.db
-├── mlruns
-│   └── 1
-│       ├── 1ab2d31135cc417f9a06c0650a0194ef
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── 258cf83c2e344764b30d38f0a1d0c343
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── 5929bd8378334ccb84b439b938180f5d
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── 713403a8ddbe4e2c91d62420a65e92f6
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── 7498f383126f4b7b90ebf3058d4e547e
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── 7c8ad9af69874a22820e5924cd1a0b34
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── 90a5f3144ade4472a9c0ca7cd80b4f67
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── afd3194a25fc4af9a2ff601501b1e802
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── cdc330c64f834ff891ab7115a912547d
-│       │   └── artifacts
-│       │       └── estimator.html
-│       ├── dca2d0fe374543d4934a0fff5b21f289
-│       │   └── artifacts
-│       │       └── estimator.html
-│       └── models
-│           ├── m-11f0ad0b77a347068cc6f23f61625fc4
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-17e4024f41e142b18b0dd414fafde35d
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-21f80118b32b4e028517f91e87666736
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-3dce1fbcdbd64cc2a65f6b97324b5060
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-5edbe87107544a6e99802a106d47cae5
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-64f7d53313f94871b18cc2ad5dfe4c15
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-b84f9f24da854cc396de7e53abbc3f68
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-c32ac4da714647958bd97846379dce6d
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           ├── m-c8a8e50128d24577a7604de2ab15830f
-│           │   └── artifacts
-│           │       ├── MLmodel
-│           │       ├── conda.yaml
-│           │       ├── model.pkl
-│           │       ├── python_env.yaml
-│           │       └── requirements.txt
-│           └── m-daca75dd38bb4288b1ab02db5c995f72
-│               └── artifacts
-│                   ├── MLmodel
-│                   ├── conda.yaml
-│                   ├── model.pkl
-│                   ├── python_env.yaml
-│                   └── requirements.txt
 ├── models
 │   └── trained_pipeline.pkl
 ├── notebooks
-│   ├── .ipynb_checkpoints
-│   │   └── evaluation-checkpoint.ipynb
 │   └── evaluation.ipynb
 ├── pipelines
 │   └── training_pipeline.py
@@ -269,10 +159,10 @@ curl -X POST "http://localhost:8000/forecast" \
 
 ## 📁 Dataset
 
-- Source: [Kaggle — Indian Daily Rainfall Dataset](#) 
+- Source: [Kaggle — Indian Daily Rainfall Dataset](https://www.kaggle.com/datasets/vimalborana/india-state-level-daily-rainfall-2009-2024/)
 - 36 Indian states
 - Daily granularity: 2009-2024
 - ~200,000 rows
 
 ## 👤 Author
-[Your Name] — [GitHub](https://github.com/avbormalviya) — [LinkedIn](https://www.linkedin.com/in/vimal-borana/)
+Vimal borana — [GitHub](https://github.com/avbormalviya) — [LinkedIn](https://www.linkedin.com/in/vimal-borana/)

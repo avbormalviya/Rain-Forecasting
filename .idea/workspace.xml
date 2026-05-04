@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="687ca98f-562b-4688-817a-c18df3311bdf" name="Changes" comment="initial commit - rainfall forecasting project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/WorkShop/3. MachineLearning/ML - Project/Rain_Forcasting_Project" value="39kGzuQGxYK2oBaWpDggMoQzAps" />
+      <entry key="_D:/WorkShop/3. MachineLearning/ML - Project/Rain_Forcasting_Project/tests" value="3DFpdkkRRHaHXBXdITAEiW894aW" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Edit" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="edit-panel" value="Claude Haiku 4.5" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;avbormalviya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/avbormalviya/rain-forecasting.git&quot;,
+    &quot;accountId&quot;: &quot;cc1effb5-b623-498c-bf2b-9ddd3511d108&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="39kGzuQGxYK2oBaWpDggMoQzAps" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.RUN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bivariate_analysis.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.missing_values_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkShop/3. MachineLearning/ML - Project/Rain_Forcasting_Project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.jupyter.py.connections.configurable.JupyterServersConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkShop\3. MachineLearning\ML - Project\Rain_Forcasting_Project" />
+      <recent name="D:\WorkShop\3. MachineLearning\ML - Project\Rain_Forcasting_Project\extracted_data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkShop\3. MachineLearning\ML - Project\Rain_Forcasting_Project" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="687ca98f-562b-4688-817a-c18df3311bdf" name="Changes" comment="" />
+      <created>1771232920963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771232920963</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&#9;&#10;initial commit - rainfall forecasting project">
+      <option name="closed" value="true" />
+      <created>1777888338177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777888338177</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&#9;&#10;initial commit - rainfall forecasting project">
+      <option name="closed" value="true" />
+      <created>1777888460745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777888460745</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit - rainfall forecasting project">
+      <option name="closed" value="true" />
+      <created>1777889258575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777889258575</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&#9;&#10;initial commit - rainfall forecasting project" />
+    <MESSAGE value="initial commit - rainfall forecasting project" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit - rainfall forecasting project" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
