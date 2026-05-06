@@ -143,12 +143,19 @@ curl -X POST "http://localhost:8000/forecast" \
 ```json
 {
   "state_name": "Maharashtra",
-  "forecast": [
+  "forecast": [[1_forecast.py](streamlit_app/pages/1_forecast.py)
     {"date": "2026-05-03", "predicted_rainfall_mm": 0.05},
     {"date": "2026-05-04", "predicted_rainfall_mm": 0.03}
   ]
 }
 ```
+
+## 🌐 Live API
+Base URL: `https://web-production-87ad8.up.railway.app`
+
+- Docs: https://web-production-87ad8.up.railway.app/docs
+- States: https://web-production-87ad8.up.railway.app/states
+- Forecast: POST https://web-production-87ad8.up.railway.app/forecast
 
 ## ⚠️ Limitations
 
