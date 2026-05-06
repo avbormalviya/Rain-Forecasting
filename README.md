@@ -157,6 +157,10 @@ Base URL: `https://web-production-87ad8.up.railway.app`
 - States: https://web-production-87ad8.up.railway.app/states
 - Forecast: POST https://web-production-87ad8.up.railway.app/forecast
 
+## 🌐 Live Demo & API
+
+- **Streamlit App:** https://huggingface.co/spaces/Aaroku/india-rainfall-forecasting
+
 ## ⚠️ Limitations
 
 - State-level only — no district granularity
