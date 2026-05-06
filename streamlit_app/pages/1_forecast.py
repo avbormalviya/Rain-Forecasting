@@ -12,13 +12,12 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Add project root to path
+# Import API client
 try:
-    sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-    from api.predictor import get_forecast, get_available_states
+    from api_client import get_forecast, get_available_states, check_api_health
 except ImportError as e:
-    logger.error(f"Failed to import predictor module: {e}")
-    st.error("Failed to load prediction module. Please check the API dependencies.")
+    logger.error(f"Failed to import API client: {e}")
+    st.error("Failed to load API client. Please check the dependencies.")
     st.stop()
 
 # Page configuration
@@ -157,9 +156,14 @@ with st.sidebar:
     st.markdown("---")
     
     try:
+        # Check API health first
+        if not check_api_health():
+            st.error("⚠️ API is currently unavailable. Please try again later.")
+            st.stop()
+            
         available_states = get_available_states()
         if not available_states:
-            st.error("No states available. Please check the data files.")
+            st.error("No states available from API. Please try again later.")
             st.stop()
             
         state = st.selectbox(
@@ -188,6 +192,7 @@ with st.sidebar:
     st.markdown("### ℹ️ Model Information")
     st.info("""
     **Model**: LightGBM with Optuna tuning  
+    **API**: Live forecasting service  
     **Accuracy**: 34x better than government  
     **MAE**: 0.24mm overall, 0.84mm in July
     """)
@@ -197,7 +202,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:
     if st.button("Generate Forecast", type="primary", use_container_width=True):
-        with st.spinner("Generating forecast..."):
+        with st.spinner("🌐 Connecting to API and generating forecast..."):
             try:
                 logger.info(f"Generating forecast for {state} starting {date}")
                 predictions = get_forecast(state, str(date))
